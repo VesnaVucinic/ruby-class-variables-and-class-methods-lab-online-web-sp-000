@@ -8,6 +8,7 @@ class Song
   def initialize(name, artist, genre)
     @name = name
     @genre = genre
+    @@genre 
     @artist = artist
     @genres += 1 
   end
