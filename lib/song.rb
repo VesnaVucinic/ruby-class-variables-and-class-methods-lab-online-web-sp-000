@@ -24,7 +24,7 @@ class Song
     @@artists[artist] << artist
   end
   
-  def self.genre_count
+  #def self.genre_count
 end
   
   
