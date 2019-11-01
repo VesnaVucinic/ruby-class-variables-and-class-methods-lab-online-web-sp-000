@@ -13,8 +13,9 @@ class Song
     @@count
   end
   
-  def self.geners 
-    @@genres ||= []
+  def self.geners(gener) 
+    @@genres[gener] ||= []
+    @@geners[gener] << gener
   end
   
   def self.artists 
