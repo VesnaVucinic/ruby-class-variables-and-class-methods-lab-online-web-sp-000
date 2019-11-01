@@ -22,8 +22,7 @@ class Song
     @@artists[artist] ||= []
     @@artists[artist] << artist
   end
-  
-  
+end
   
   
   
