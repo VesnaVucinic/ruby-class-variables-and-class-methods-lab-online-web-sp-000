@@ -18,8 +18,9 @@ class Song
     @@geners[gener] << gener
   end
   
-  def self.artists 
-    @@artists ||= []
+  def self.artists(artist) 
+    @@artists[artist] ||= []
+    @@artists[artist] << artist
   end
   
   
